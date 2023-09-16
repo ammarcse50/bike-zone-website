@@ -10,14 +10,9 @@
       type="text/css"
     />
     <title>bika zone</title>
-    <style>
-      .container,
-      header {
-        padding: 70px;
-      }
-    </style>
+  
   </head>
-  <body>
+  <body class="m-0">
     <header class="bg-[#264653]">
       <!-- Navbar Section  -->
       <nav class="flex justify-center items-center lg:justify-end w-full">
@@ -39,8 +34,8 @@
             id="slide1"
             class="carousel-item relative w-full flex justify-center items-center"
           >
-            <div class="elements flex flex-col lg:flex-row  items-center gap-20">
-              <div class="text-element lg:pl-20 space-y-5">
+            <div class="elements  flex flex-col lg:flex-row  items-center gap-20">
+              <div class="text-element lg:pl-20 space-y-5 break-normal">
                 <p class="text-[14px]">
                   Computer-controlled digital transistorized with electronic
                   advance
@@ -195,7 +190,7 @@
           </div>
         </div>
         <!-- bike part  -->
-        <div class="bike-sample-part mt-10 flex flex-col space-y-10 lg:justify-evenly">
+        <div class="bike-sample-part mt-10 gap-4 p-10 lg:p-0  flex flex-col lg:flex-row lg:justify-evenly">
           <img src="./images/others/feature-bike.png" alt="" />
           <img src="./images/others/feature-bike.png" alt="" />
           <img src="./images/others/feature-bike.png" alt="" />
@@ -204,7 +199,7 @@
       <!-- latest News-section  -->
       <div class="latest News">
         <h1 class="text-[48px] font-medium mt-10 text-center">latest News</h1>
-        <div class="latest-bike-card flex justify-evenly">
+        <div class="latest-bike-card gap-y-5 p-10 lg:p-0 flex flex-col  lg:flex-row lg:justify-evenly">
           <!-- card-1  -->
           <div class="card w-[337px] bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
@@ -275,7 +270,7 @@
         <h1 class="text-[48px] text-center mt-10">
           Happy <span class="text-[#E76F51]">Clients Says</span>
         </h1>
-        <div class="happy-clients mt-10 flex justify-evenly">
+        <div class="happy-clients mt-10 p-10 lg:p-0 flex flex-col lg:flex-row gap-y-5 lg:justify-evenly">
           <!-- client-1  -->
           <div class="card w-[337px] bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
@@ -348,14 +343,14 @@
         </h1>
         <div class="faq-elements">
           <div class="hero min-h-screen bg-base-200">
-            <div class="hero-content flex-col lg:flex-row">
+            <div class="hero-content flex-col  lg:flex-row p-10 lg:p-0">
               <img
                 src="./images/others/Frame.png"
                 class="max-w-sm rounded-lg shadow-2xl"
               />
               <!-- Question answer  -->
               <div class="accordian-faq space-y-4">
-                <div class="collapse collapse-arrow bg-base-200">
+                <div class="collapse collapse-arrow bg-base-200 p-12 lg:p-0">
                   <input type="radio" name="my-accordion-2" checked="checked" />
                   <div class="collapse-title text-xl font-medium">
                     What are the most important things I should know about
@@ -413,7 +408,7 @@
           <p>Liecence</p>
         </div>
         <div class="second text-white">
-          <ul class="flex gap-5">
+          <ul class="flex flex-col lg:flex-row  gap-5">
             <li>About</li>
             <li>Features</li>
             <li>Pricing</li>
